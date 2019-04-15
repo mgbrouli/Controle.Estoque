@@ -1,3 +1,4 @@
+#não esta totalmente funcional, falta realmente criar alguns comandos e no futuro aprender a criar bancos de dados externos para salvar os arquivos
 bebidas = []
 pereciveis = []
 naoPereciveis = []
