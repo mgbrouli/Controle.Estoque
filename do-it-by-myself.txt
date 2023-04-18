@@ -1,0 +1,30 @@
+My system pdv.
+
+{Omologações fiscais
+ECF
+NFC-e
+SAT-CF-e
+
+}
+
+Coisas a fazer
+
+PDV vendas{
+}
+
+sistema de estoque(banco de dados){
+cadastro de produtos{nome, marca, complementações, tipo de medida(unid, kilo etc.), area de balança, grupo e subgrupo de divisão mercadologica;
+tributos(PIS/COFINS, informaões de IPI, CEST, codigo tributarui(Referente a CFOP), Origem, NCM data.)
+ } = Botão de salvar, cancelar, novo, OBS: não deixar excluir, desativar após 6 meses de inatividade porém reativar na proxia vez que passar no caixa
+
+preco de produtos{}
+	codigo produto, informações, preço de custo, valor e calculos.
+}
+
+
+
+Banco de dados{
+	
+
+
+}
