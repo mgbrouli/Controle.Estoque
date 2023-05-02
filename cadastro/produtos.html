@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-prod.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>Cadastro</h2>
+        </header>
+
+        <article>
+            <form class="info-prod" id="cadastro-produtos" action="" method="post" autocomplete="off">
+                <fieldset>
+                    <Legend>Nomes</Legend>
+                    <label for="produtos">Descrição:</label>
+                    <input type="text" class="entradas" name="produtos">
+                    <label for="codigo-barra">Código/EAN/GTIN:</label>
+                    <input type="number" class="entradas" name="codigo-barra">
+                    
+                    <label for="Unidade-medida">Unidade-medida:</label>
+                        <select name="medidas" id="medidas">
+                            <option value="unid">Unid</option>
+                            <option value="kg">KG</option>
+                            <option value="mt">MT</option>
+                            <option value="CX">CX</option>
+                            <option value="pct">PCT</option>
+                            <option value="cj">CJ</option>
+                            
+                        </select>
+                    <label for="pdv">Descrição para PDV</label>
+                    <input type="text" name="pdv" id="pdv">
+
+
+                </fieldset>
+                <fieldset>
+                    <legend>Tributos</legend>
+
+                    <fieldset class="ncm-container">
+                        <legend>NCM</legend>
+                        <label for="ncm">NCM</label>
+                        <input type="number" name="ncm" id="ncm">
+                        <label for="date-nc,">Data de vigência</label>
+                        <input type="date" name="date-ncm" id="date-ncm">
+                    </fieldset><br/>
+                    <fieldset class="cest-container">
+                        <legend>CEST</legend>
+                        <label for="cest">CEST</label>
+                        <input type="number" name="cest" id="cest">
+                        <label for="date-nc,">Data de vigência</label>
+                        <input type="date" name="date-ncm" id="date-ncm">
+                    </fieldset><br/>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Preço inicial</legend>
+
+                </fieldset>
+
+                
+                <input type="submit" value="Salvar">
+                <input type="reset" value="Cancelar">
+            </form>
+        </article>
+        <footer>
+
+        </footer>
+
+    </div><!--container-->
+    
+</body>
+</html>
